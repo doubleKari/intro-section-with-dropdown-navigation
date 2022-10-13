@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./dist/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
@@ -16,8 +16,8 @@ module.exports = {
         lg: "1440px",
       },
       backgroundImage: {
-        "hero-pattern-mobile": "url('../images/image-hero-mobile.png')",
-        "hero-pattern-desktop": "url('../images/image-hero-desktop.png')",
+        "hero-pattern-mobile": "url('./images/image-hero-mobile.png')",
+        "hero-pattern-desktop": "url('./images/image-hero-desktop.png')",
       },
     },
   },
