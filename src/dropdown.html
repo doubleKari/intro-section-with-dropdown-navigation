@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom dropdown</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+
+  <body class="flex justify-center items-center font-body-text">
+    <button
+      class="relative flex justify-center items-center px-4 py-2 bg-white border focus:outline-none shadow text-gray-600 rounded focus:ring ring-gray-200 group"
+    >
+      <p class="px-4">Dropdown</p>
+      <span class="p-0.5">
+        <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+          <path
+            stroke="#686868"
+            stroke-width="1.5"
+            fill="none"
+            d="m1 1 4 4 4-4"
+          />
+        </svg>
+      </span>
+      <div
+        class="absolute hidden top-full min-w-full w-max bg-white shadow-md mt-1 rounded left-5 group-focus:block"
+      >
+        <ul class="text-left border rounded-xl">
+          <li class="px-4 py-1 bg=gray-100">History</li>
+          <li class="px-4 py-1 bg=gray-100">Our team</li>
+          <li class="px-4 py-1 bg=gray-100">Blog</li>
+        </ul>
+      </div>
+    </button>
+  </body>
+</html>
